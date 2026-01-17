@@ -6,6 +6,6 @@ services:
     ports:
       - "8765:8000"
     volumes:
-      - ./quotes.json:/data/quotes.json:ro
+      - /mnt/user/appdata/logos:/config
     environment:
-      - QUOTES_PATH=/data/quotes.json
+      - QUOTES_PATH=/config/quotes.json
