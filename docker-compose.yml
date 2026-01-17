@@ -1,0 +1,11 @@
+services:
+  logos:
+    build: .
+    container_name: logos
+    restart: unless-stopped
+    ports:
+      - "8765:8765"
+    volumes:
+      - ./quotes.json:/data/quotes.json:ro
+    environment:
+      - QUOTES_PATH=/data/quotes.json
