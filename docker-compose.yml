@@ -4,7 +4,7 @@ services:
     container_name: logos
     restart: unless-stopped
     ports:
-      - "8765:8765"
+      - "8765:8000"
     volumes:
       - ./quotes.json:/data/quotes.json:ro
     environment:
