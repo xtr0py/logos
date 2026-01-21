@@ -1,6 +1,6 @@
 # Logos Quotes API
 
-A tiny FastAPI service that returns a random (or daily) quote for dashboards like Homepage.
+A tiny FastAPI service that returns a random (or daily) quote for dashboards like [Homepage](https://github.com/gethomepage/homepage).
 ---
 ## What this does
 
