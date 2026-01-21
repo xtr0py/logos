@@ -1,14 +1,14 @@
 # Logos Quotes API
 
 A tiny FastAPI service that returns a random (or daily) quote for dashboards like Homepage.
-
+---
 ## What this does
 
 - Serves a quote JSON response at `GET /quote`
 - Optional `daily=true` makes the quote stable for the day
 - Quotes are stored in a **live** `quotes.json` file mounted into the container
 - On first run, the container will seed `/config/quotes.json` from the repo seed file `config/quotes.json`
-
+---
 ## API
 
 ### Health
@@ -19,9 +19,7 @@ A tiny FastAPI service that returns a random (or daily) quote for dashboards lik
 - `GET /quote?daily=true`
 - `GET /quote?tag=motivation`
 - `GET /quote?tag=motivation&daily=true`
-
-Response fields depend on `app.py`, but typically include `text`, `author`, and metadata.
-
+---
 ## Repo layout
 
 - `app.py` – FastAPI server
@@ -29,12 +27,9 @@ Response fields depend on `app.py`, but typically include `text`, `author`, and 
 - `Dockerfile` – image build
 - `config/quotes.json` – **seed** quotes (tracked in git)
 - `/config/quotes.json` – **live** quotes inside container (bind-mounted on Unraid)
+---
+## Docker Compose
 
-## Local run (Docker Compose)
-
-> `docker-compose.yml` is optional. If you have one, it should mount a folder to `/config`.
-
-Example:
 ```yaml
 services:
   inspire:
