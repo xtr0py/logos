@@ -39,7 +39,7 @@ services:
     ports:
       - "8765:8000"
     volumes:
-      - /mnt/user/appdata/inspire:/config
+      - /mnt/user/appdata/logos:/config
     environment:
       - QUOTES_PATH=/config/quotes.json
 
