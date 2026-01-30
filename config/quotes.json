@@ -1,17 +1,35 @@
 [
   {
-    "text": "We don't rise to the level of our expectations, we fall to the level of our training.",
     "author": "Archilochus",
+    "text": "We don't rise to the level of our expectations, we fall to the level of our training.",
+    "original": "πόλλ’ οἶδ’ ἀλώπηξ, ἀλλ’ ἐχῖνος ἓν μέγα",
+    "source": "Archilochus unverfied"
     "tags": ["wisdom"]
   },
   {
-    "text": "The fox knows many things, but the hedgehog knows one big thing.",
     "author": "Archilochus",
+    "text": "The fox knows many things, but the hedgehog knows one big thing.",
+    "original": "πόλλ’ οἶδ’ ἀλώπηξ, ἀλλ’ ἐχῖνος ἓν μέγα",
+    "source": "Archilochus, fragment (7th century BCE)"
     "tags": ["strategy"]
   },
   {
-    "text": "The only true wisdom is in knowing you know nothing.",
     "author": "Socrates",
+    "text": "One thing I know: that I know nothing.",
+    "original": "ἓν οἶδα ὅτι οὐδὲν οἶδα",
+    "source": "Traditional attribution (Plato, Apology 21d–23b)"
     "tags": ["wisdom"]
   }
+  {
+    "author": "Anonymous",
+    "text": "A goal without a plan is just a wish.",
+    "tags": ["motivation", "planning", "goals", "success"]
+  },
+  {
+    "author": "Sun Tzu",
+    "text": "Just as water retains no constant shape, so in warfare there are no constant conditions.",
+    "original": "兵无常势，水无常形",
+    "chapter": "Chapter 6: Weak Points and Strong",
+    "tags": ["strategy", "adaptability"]
+  },
 ]
