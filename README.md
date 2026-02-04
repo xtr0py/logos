@@ -42,4 +42,11 @@ services:
       - /mnt/user/appdata/logos:/config
     environment:
       - QUOTES_PATH=/config/quotes.json
+```
+---
+## Roadmap
 
+- [ ] Add homepage custom API example
+- [ ] Add homepage CSS example
+- [ ] Consider SQLlite refactoring
+- [ ] Add graphics
