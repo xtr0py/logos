@@ -34,7 +34,7 @@ A tiny FastAPI service that returns a random (or daily) quote for dashboards lik
 services:
   inspire:
     build: .
-    container_name: inspire
+    container_name: logos
     restart: unless-stopped
     ports:
       - "8765:8000"
